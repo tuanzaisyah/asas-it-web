@@ -33,7 +33,7 @@ export const note = [
     id: 3,
     topic: "1.1.3 Pengecaman Coak dalam Sesuatu Situasi",
     desc: "desc3",
-    video: "../../assets/videos/sample1.mp4",
+    video: "../../assets/videos/sample.mp4",
     note: "../../assets/notes/note3/nota3.pdf",
     images: [
       "../../assets/notes/note3/1.png",
@@ -63,7 +63,7 @@ export const note = [
     id: 5,
     topic: "1.1.5 Ciri-Ciri Kesamaan dalam Sesuatu Permasalahan",
     desc: "desc5",
-    video: "../../assets/videos/sample1.mp4",
+    video: "../../assets/videos/sample.mp4",
     note: "../../assets/notes/note5/nota5.pdf",
     images: [
       "../../assets/notes/note5/1.png",
