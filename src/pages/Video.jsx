@@ -15,30 +15,37 @@ const Video = () => {
   };
 
   return (
-    <div className="w-screen h-screen flex flex-col gap-12 items-center justify-center px-4">
-      <div className="max-w-[1040px]">
-        <video src={selectedVideo?.video} alt="" className=" h-auto" controls />
-      </div>
-
-      <div className="flex flex-col md:flex-row gap-8">
-        <div className="flex flex-col md:flex-row gap-8">
-          <Link to={"/"}>
-            <button className="w-52 bg-orange px-6 py-4 flex items-center justify-center gap-2 rounded-lg">
-              <TiHome className="w-6 h-6" /> Laman Utama
-            </button>
-          </Link>
-
-          <button
-            onClick={prevPage}
-            className="w-52 bg-slate-900 text-white-100 px-6 py-4 flex items-center justify-center gap-2 rounded-lg"
-          >
-            <MdOutlineMenuBook className="w-6 h-6" /> Baca Nota
-          </button>
+    <div className="w-full h-full mt-20 pt-20 px-6 pb-0">
+      <div className=" flex flex-col gap-12 items-center justify-center px-4">
+        <div className="max-w-[1040px]">
+          <video
+            src={selectedVideo?.video}
+            alt=""
+            className=" h-auto"
+            controls
+          />
         </div>
 
-        <button className="w-52 bg-orange px-6 py-4 flex items-center justify-center gap-2 rounded-lg">
-          <FaGamepad className="w-6 h-6" /> Uji Minda
-        </button>
+        <div className="flex flex-col md:flex-row gap-8">
+          <div className="flex flex-col md:flex-row gap-8">
+            <Link to={"/"}>
+              <button className="w-52 bg-orange px-6 py-4 flex items-center justify-center gap-2 rounded-lg">
+                <TiHome className="w-6 h-6" /> Laman Utama
+              </button>
+            </Link>
+
+            <button
+              onClick={prevPage}
+              className="w-52 bg-slate-900 text-white-100 px-6 py-4 flex items-center justify-center gap-2 rounded-lg"
+            >
+              <MdOutlineMenuBook className="w-6 h-6" /> Baca Nota
+            </button>
+          </div>
+
+          <button className="w-52 bg-orange px-6 py-4 flex items-center justify-center gap-2 rounded-lg">
+            <FaGamepad className="w-6 h-6" /> Uji Minda
+          </button>
+        </div>
       </div>
     </div>
   );
