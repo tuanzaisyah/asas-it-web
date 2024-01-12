@@ -42,9 +42,11 @@ const Video = () => {
             </button>
           </div>
 
-          <button className="w-52 bg-orange px-6 py-4 flex items-center justify-center gap-2 rounded-lg">
-            <FaGamepad className="w-6 h-6" /> Uji Minda
-          </button>
+          <Link to={`/quiz/${videoId}`}>
+            <button className="w-52 bg-orange px-6 py-4 flex items-center justify-center gap-2 rounded-lg">
+              <FaGamepad className="w-6 h-6" /> Uji Minda
+            </button>
+          </Link>
         </div>
       </div>
     </div>

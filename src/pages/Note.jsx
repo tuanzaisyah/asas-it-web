@@ -2,10 +2,6 @@ import React from "react";
 import { IoMdDownload } from "react-icons/io";
 import { MdOutlineVideoLibrary } from "react-icons/md";
 import { FaGamepad } from "react-icons/fa6";
-import {
-  IoChevronBackCircleOutline,
-  IoChevronForwardCircleOutline,
-} from "react-icons/io5";
 import { Link, useLocation } from "react-router-dom";
 import { note } from "../data";
 import { Slider } from "infinite-react-carousel";
@@ -48,9 +44,11 @@ const Note = () => {
             </Link>
           </div>
 
-          <button className="w-52 bg-orange px-6 py-4 flex items-center justify-center gap-2 rounded-lg">
-            <FaGamepad className="w-6 h-6" /> Uji Minda
-          </button>
+          <Link to={`/quiz/${noteId}`}>
+            <button className="w-52 bg-orange px-6 py-4 flex items-center justify-center gap-2 rounded-lg">
+              <FaGamepad className="w-6 h-6" /> Uji Minda
+            </button>
+          </Link>
         </div>
       </div>
     </div>
