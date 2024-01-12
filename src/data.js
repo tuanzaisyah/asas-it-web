@@ -13,6 +13,50 @@ export const note = [
       "../../assets/notes/note1/5.png",
       "../../assets/notes/note1/6.png",
     ],
+    quiz: [
+      {
+        question:
+          "Pemikiran komputasional ialah satu proses __________ bagi tujuan ________ sesuatu masalah oleh manusia sendiri berbantukan mesin atau kedua-duanya sekali dengan menggunakan konsep asas sains komputer",
+        options: [
+          "perubahan, menyelesaikan",
+          "automasi, mengatasi",
+          "inovasi, mengatasi",
+          "pemikiran, menyelesaikan",
+        ],
+        correctOptionIndex: 4,
+      },
+      {
+        question: "Yang manakan BUKAN teknik dalam pemikiran komputasional?",
+        options: ["Leraian", "Pengecaman Corak", "Penguraian", "Pengitlakan"],
+        correctOptionIndex: 3,
+      },
+      {
+        question: "Yang manakah BUKAN contoh pemikiran komputasional?",
+        options: [
+          "Meminta kebenaran ibu bapa untuk pergi ke kedai",
+          "Merancang perjalanan yang paling pendek untuk ke sekolah",
+          "Merancang cara-cara membuat kek",
+          "Membahagikan jadual tugas pelajar untuk membersihkan kelas",
+        ],
+        correctOptionIndex: 1,
+      },
+      {
+        question: "Pilih aturan yang betul bagi proses pemikiran komputasional",
+        options: [
+          "Masalah dipecahkan, Perkara tidak penting ditinggalkan, Kenal pasti corak yang sama, Sediakan satu model penyelesaian masalah",
+          "Masalah dipecahkan, Kenal pasti corak yang sama, Perkara tidak penting ditinggalkan, Sediakan satu model penyelesaian masalah",
+          "Masalah dipecahkan, Kenal pasti corak yang sama,  Sediakan satu model penyelesaian masalah, Perkara tidak penting ditinggalkan",
+          "Masalah dipecahkan,  Sediakan satu model penyelesaian masalah, Perkara tidak penting ditinggalkan, Kenal pasti corak yang sama,",
+        ],
+        correctOptionIndex: 2,
+      },
+      {
+        question:
+          "Teknik Leraian membolehkan kita memahami sesuatu proses kerja dengan lebih mudah dan membantu kita memberi penerangan yang lebih jelas atau menyediakan algoritma yang lebih tepat",
+        options: ["Betul", "Salah"],
+        correctOptionIndex: 1,
+      },
+    ],
   },
   {
     id: 2,
