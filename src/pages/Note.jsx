@@ -13,7 +13,7 @@ const Note = () => {
   const selectedNote = note.find((n) => n.id === noteId);
 
   return (
-    <div className="w-full h-full mt-20 pt-20 px-6 pb-0">
+    <div className="w-full h-full mt-10 pt-10 px-6 pb-0">
       <div className=" flex flex-col gap-12 items-center justify-center px-4">
         <div className="container max-w-[1040px]">
           <Slider arrows={true} slideToShow={1} dots={true}>

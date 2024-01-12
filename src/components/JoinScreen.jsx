@@ -2,7 +2,7 @@ import React from "react";
 
 const JoinScreen = ({ start }) => {
   return (
-    <div className="w-full h-full mt-16 pt-16 px-6 pb-0">
+    <div className="w-full h-full mt-10 pt-10 px-6 pb-0">
       <div className="flex flex-col items-center justify-center">
         <div className="w-80 md:w-[650px] lg:w-[800px] xl:w-[1000px] h-[550px] xl:h-[650px] bg-white-100 border border-white-400 p-4 rounded-2xl flex flex-col justify-between">
           <div className="">
