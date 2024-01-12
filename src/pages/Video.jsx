@@ -15,7 +15,7 @@ const Video = () => {
   };
 
   return (
-    <div className="w-full h-full mt-10 pt-10 px-6 pb-0">
+    <div className="w-full h-full px-6 pb-0">
       <div className=" flex flex-col gap-12 items-center justify-center px-4">
         <div className="max-w-[1040px]">
           <video
