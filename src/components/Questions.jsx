@@ -1,17 +1,22 @@
 import React, { useEffect, useRef, useState } from "react";
 import { TiTickOutline } from "react-icons/ti";
 import { CgClose } from "react-icons/cg";
+import Timer from "./Timer";
 
 const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [answered, setAnswered] = useState(false);
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
   const [progressBarAnimated, setProgressBarAnimated] = useState(false);
+  const [stopTimer, setStopTimer] = useState(false);
+  const [restartTimer, setRestartTimer] = useState(false);
   const timer = useRef(null);
   const progressBar = useRef(null);
 
   useEffect(() => {
     setProgressBarAnimated(false);
+    setStopTimer(false);
+    setRestartTimer(false);
 
     // Start the timer for 10 seconds when the question changes
     timer.current = setTimeout(() => {
@@ -19,12 +24,15 @@ const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
       if (!answered) {
         setAnswered(true);
         setShowCorrectAnswer(true);
+        setStopTimer(true);
 
         setTimeout(() => {
           setShowCorrectAnswer(false);
           setAnswer(null);
           setSelectedOption(null);
           setAnswered(false);
+          setStopTimer(false);
+          setRestartTimer(true);
         }, 2000);
       }
     }, 10000);
@@ -60,6 +68,7 @@ const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
       setAnswered(true);
       setProgressBarAnimated(true);
       setShowCorrectAnswer(true);
+      setStopTimer(true);
 
       setTimeout(() => {
         setAnswer(index);
@@ -67,6 +76,8 @@ const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
         setProgressBarAnimated(false);
         setAnswered(false);
         setShowCorrectAnswer(false);
+        setStopTimer(false);
+        setRestartTimer(true);
       }, 2000);
     }
   };
@@ -85,14 +96,17 @@ const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
   };
 
   return (
-    <div className="w-full h-full mt-10 pt-10 px-6 pb-16">
+    <div className="w-full h-full mt-5 pt-5 px-6 pb-16">
       <div className="flex flex-col justify-center items-center">
         <div className=" flex flex-col justify-between w-96 md:w-[650px] lg:w-[800px] xl:w-[1000px] h-[700px] xl:h-[650px] bg-white-100 border border-white-400 p-4 rounded-2xl">
           <div className="relative">
-            <h3 className="text-2xl font-medium">Kuiz</h3>
+            <div className="flex flex-row justify-between items-center">
+              <h3 className="text-2xl font-medium">Kuiz</h3>
+              <Timer stopTimer={stopTimer} restartTimer={restartTimer} />
+            </div>
             <div
               ref={progressBar}
-              className={`absolute top-12 h-full ${
+              className={`absolute top-[67px] h-full ${
                 progressBarAnimated ? "animate-progress" : ""
               }`}
             ></div>
@@ -104,7 +118,7 @@ const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
             <div className="">
               {question.options.map((option, index) => (
                 <div
-                  className={`xl:text-xl mb-6 md:mb-6 rounded-lg px-2 xl:px-4 py-2 xl:py-4 border border-white-400 cursor-pointer ${
+                  className={`xl:text-xl mb-4 md:mb-6 rounded-lg px-3 xl:px-4 py-3 xl:py-4 border border-white-400 cursor-pointer ${
                     shouldHighlight(index)
                       ? isOptionCorrect(index)
                         ? "bg-green-100"
