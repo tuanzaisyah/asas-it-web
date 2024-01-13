@@ -3,15 +3,6 @@ import React, { useEffect, useState } from "react";
 const Timer = ({ stopTimer, restartTimer }) => {
   const [timer, setTimer] = useState(10);
 
-  //   useEffect(() => {
-  //     const interval = setInterval(() => {
-  //       setTimer((prev) => prev - 1);
-  //     }, 1000);
-  //     return () => {
-  //       clearInterval(interval);
-  //     };
-  //   }, []);
-
   useEffect(() => {
     let interval;
 
