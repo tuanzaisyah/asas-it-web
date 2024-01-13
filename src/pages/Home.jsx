@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="w-full h-full mt-10 pt-10 px-6 pb-16">
+    <div className="w-full mt-10 pt-10 px-6 pb-16">
       <div className="flex flex-col md:flex-row md:px-11 items-center justify-center gap-6 lg:gap-16 xl:gap-24">
         <div className="md:basis-1/2 md:order-2">
           <img
@@ -24,8 +24,10 @@ const Home = () => {
                 className="w-80 h-64 lg:h-80 xl:h-96 bg-white-100 p-4 lg:p-8 rounded-lg border border-white-400 flex flex-col justify-between relative"
               >
                 <div className="flex flex-col gap-4">
-                  <h3 className="text-xl font-medium">{note.topic}</h3>
-                  <p>{note.desc}</p>
+                  <h3 className="text-xl xl:text-2xl  font-medium">
+                    {note.topic}
+                  </h3>
+                  <p className="xl:text-xl">{note.desc}</p>
                 </div>
 
                 <Link to={`/note/${note.id}`}>

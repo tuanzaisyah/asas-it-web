@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const QuizResult = ({ result, retry }) => {
   return (
-    <div className="w-full h-full px-6 pb-0">
+    <div className="w-full h-full mt-10 pt-10 px-6 pb-0">
       <div className="flex flex-col justify-center items-center">
         <div className="flex flex-col justify-center items-center w-96 md:w-[650px] lg:w-[800px] xl:w-[1000px] h-[550px] xl:h-[650px] bg-white-100 border border-white-400 p-4 rounded-2xl">
           <img
