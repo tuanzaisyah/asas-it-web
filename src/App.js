@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Note from "./pages/Note";
 import Video from "./pages/Video";
 import Quiz from "./pages/Quiz";
+import About from "./pages/About";
 
 function App() {
   const Layout = () => {
@@ -34,6 +35,10 @@ function App() {
         {
           path: "/quiz/:id",
           element: <Quiz />,
+        },
+        {
+          path: "/about",
+          element: <About />,
         },
       ],
     },
