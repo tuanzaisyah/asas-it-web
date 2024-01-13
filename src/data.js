@@ -96,7 +96,7 @@ export const note = [
       },
       {
         question:
-          "Andaikan anda ialah seorang juru landskap. Syarikat anda ditugaskan untuk menyiapkan sebuah taman permainan di sebuah kawasan di luar bandar. Anda dipilih untuk mengkaji dan menganggarkan kos yang diperlukan bagi menyiapkan taman permainan.",
+          "Andaikan anda ialah seorang juru landskap. Syarikat anda ditugaskan untuk menyiapkan sebuah taman permainan di sebuah kawasan di luar bandar. Anda dipilih untuk mengkaji dan menganggarkan kos yang diperlukan bagi menyiapkan taman permainan.Pernyataan ini merujuk kepada Teknik Leraian.",
         options: ["Betul", "Salah"],
         correctOptionIndex: 1,
       },
