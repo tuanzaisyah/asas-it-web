@@ -85,7 +85,7 @@ const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
   };
 
   return (
-    <div className="w-full h-full px-6 pb-0">
+    <div className="w-full h-full mt-10 pt-10 px-6 pb-16">
       <div className="flex flex-col justify-center items-center">
         <div className=" flex flex-col justify-between w-96 md:w-[650px] lg:w-[800px] xl:w-[1000px] h-[700px] xl:h-[650px] bg-white-100 border border-white-400 p-4 rounded-2xl">
           <div className="relative">
@@ -104,7 +104,7 @@ const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
             <div className="">
               {question.options.map((option, index) => (
                 <div
-                  className={`xl:text-xl mb-2 md:mb-6 rounded-lg px-2 xl:px-4 py-2 xl:py-4 border border-white-400 cursor-pointer ${
+                  className={`xl:text-xl mb-6 md:mb-6 rounded-lg px-2 xl:px-4 py-2 xl:py-4 border border-white-400 cursor-pointer ${
                     shouldHighlight(index)
                       ? isOptionCorrect(index)
                         ? "bg-green-100"

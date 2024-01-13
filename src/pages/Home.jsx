@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="w-full h-full px-6 pb-0">
+    <div className="w-full h-full mt-10 pt-10 px-6 pb-16">
       <div className="flex flex-col md:flex-row md:px-11 items-center justify-center gap-6 lg:gap-16 xl:gap-24">
         <div className="md:basis-1/2 md:order-2">
           <img
