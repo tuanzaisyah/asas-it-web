@@ -12,6 +12,8 @@ export const note = [
       "../../assets/notes/note1/4.png",
       "../../assets/notes/note1/5.png",
       "../../assets/notes/note1/6.png",
+      "../../assets/notes/note1/7.png",
+      "../../assets/notes/note1/8.png",
     ],
     quiz: [
       {
