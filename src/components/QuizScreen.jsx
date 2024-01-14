@@ -15,7 +15,7 @@ const QuizScreen = ({ retry }) => {
   const isQuestionEnd = currentQuestionIndex === selectedQuiz?.quiz?.length;
 
   function calculateResult() {
-    console.log(markedAnswers);
+    // console.log(markedAnswers);
     let correct = 0;
     selectedQuiz?.quiz?.forEach((quizItem, index) => {
       if (quizItem.correctOptionIndex - 1 == markedAnswers[index]) {

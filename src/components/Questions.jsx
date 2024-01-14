@@ -35,7 +35,7 @@ const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
           setRestartTimer(true);
         }, 2000);
       }
-    }, 10000);
+    }, 30000);
 
     return () => {
       if (timer.current) {
@@ -98,7 +98,7 @@ const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
   return (
     <div className="w-full h-full mt-5 pt-5 px-6 pb-16">
       <div className="flex flex-col justify-center items-center">
-        <div className=" flex flex-col justify-between w-96 md:w-[650px] lg:w-[800px] xl:w-[1000px] h-[700px] xl:h-[650px] bg-white-100 border border-white-400 p-4 rounded-2xl">
+        <div className=" flex flex-col justify-between w-96 md:w-[650px] lg:w-[800px] xl:w-[1000px] h-[700px] bg-white-100 border border-white-400 p-4 rounded-2xl">
           <div className="relative">
             <div className="flex flex-row justify-between items-center">
               <h3 className="text-2xl font-medium">Kuiz</h3>
@@ -151,14 +151,6 @@ const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
             <div className="flex justify-between items-center">
               <div className="xl:text-xl">
                 <b>{currentQuestion}</b> dari <b>{totalQuestion}</b> soalan
-              </div>
-              <div>
-                {/* <button
-                  className="bg-slate-900 text-white-200 xl:text-xl rounded-lg px-10 py-2"
-                  onClick={goToNextQuestion}
-                >
-                  Next
-                </button> */}
               </div>
             </div>
           </div>

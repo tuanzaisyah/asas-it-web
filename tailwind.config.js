@@ -34,7 +34,7 @@ module.exports = {
         },
       },
       animation: {
-        progress: "progress 10s linear ",
+        progress: "progress 30s linear ",
       },
     },
   },

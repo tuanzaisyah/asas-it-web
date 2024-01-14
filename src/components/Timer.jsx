@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Timer = ({ stopTimer, restartTimer }) => {
-  const [timer, setTimer] = useState(10);
+  const [timer, setTimer] = useState(30);
 
   useEffect(() => {
     let interval;
@@ -19,7 +19,7 @@ const Timer = ({ stopTimer, restartTimer }) => {
 
   useEffect(() => {
     if (restartTimer) {
-      setTimer(10);
+      setTimer(30);
     }
   }, [restartTimer]);
 

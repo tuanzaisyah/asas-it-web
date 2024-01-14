@@ -15,7 +15,7 @@ const JoinScreen = ({ start }) => {
 
             <ol className="flex flex-col gap-4 xl:gap-8 mt-4 xl:text-xl">
               <li>
-                1. Anda mempunyai masa <b>15 saat</b> sahaja bagi setiap soalan.
+                1. Anda mempunyai masa <b>30 saat</b> sahaja bagi setiap soalan.
               </li>
               <li>
                 2. Anda hanya boleh memilih <b>satu jawapan</b> sahaja.
