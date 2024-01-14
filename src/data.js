@@ -260,6 +260,53 @@ export const note = [
       "../../assets/notes/note5/10.png",
       "../../assets/notes/note5/11.png",
     ],
+    quiz: [
+      {
+        question:
+          "Apakah yang dimaksudkan dengan Ciri-Ciri Kesamaan dalam Sesuatu Permasalahan?",
+        options: [
+          "Kebolehan untuk mengenal pasti kesamaan atau perbezaan merupakan kemahiran asas bagi penyelesaian masalah dan mereka bentuk algoritma",
+          "Proses pemikiran yang melibatkan pencarian formula pada permasalahan dan menyatakan penyelesaian seperti yang dilaksanakan oleh sebuah komputer",
+          "Suatu teknik yang boleh dilakukan antara masalah-masalah yang berlainan atau antara bahagian kecil dalam masalah yang sama",
+          "Proses pembinaan bagi masalah yang diselesaikan di mana boleh dalam bentuk formula, teknik, peraturan atau langkah-langkah bagi menyelesaikan masalah",
+        ],
+        correctOptionIndex: 1,
+      },
+      {
+        question:
+          "Menyelesaikan masalah dengan bantuan manusia sendiri dan mesin serta menggunakan lakaran peta yang disediakan bagi memudahkan proses penyelesaian. Pernyataan ini menunjukkan Ciri-ciri Kesamaan dalam Sesuatu Permasalah",
+        options: ["Betul", "Salah"],
+        correctOptionIndex: 2,
+      },
+      {
+        question:
+          "MENCARI KESAMAAN DAN PERBEZAAN merupakan aspek penting yang perlu dititikberatkan dalam menyelesaikan masalah dan mereka bentuk algoritma",
+        options: ["Betul", "Salah"],
+        correctOptionIndex: 1,
+      },
+      {
+        question:
+          "Apakah perkara yang diambil kira suatu ingin menyelesaikan ciri-ciri kesamaan permasalahan dan mereka bentuk algorithma?",
+        options: [
+          "Melihat kepada nilai yang ditetapkan",
+          "Penentuaan mengikut pemikiran komputernasional",
+          "Bergantung kepada pandangan dan kata kunci yang diperolehi",
+          "Kesamaan yang diberikan,perbezaan yang dikesan dan kata kunci yang diperolehi pada soalan yang diberikan",
+        ],
+        correctOptionIndex: 4,
+      },
+      {
+        question:
+          "Masalah boleh __________ kepada bahagian-bahagian kecil yang lebih _______ untuk diselesaikan apabila ciri-ciri kesamaan atau perbezaan dikesan",
+        options: [
+          "digabungkan, mudah",
+          "diperincikan, efisien",
+          "dipecahkan, mudah",
+          "dipecahkan, padat",
+        ],
+        correctOptionIndex: 3,
+      },
+    ],
   },
 ];
 
