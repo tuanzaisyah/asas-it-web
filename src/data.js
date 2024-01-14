@@ -3,7 +3,7 @@ export const note = [
     id: 1,
     topic: "1.1.1 Teknik dalam Pemikiran Komputasional",
     desc: "Menghuraikan tentang proses pemikiran komputasional dan teknik-teknik di dalam pemikiran komputasional",
-    video: "../../assets/videos/sample.mp4",
+    video: "../../assets/videos/video1.mp4",
     note: "../../assets/notes/note1/nota1.pdf",
     images: [
       "../../assets/notes/note1/1.png",
@@ -65,7 +65,7 @@ export const note = [
     topic:
       "1.1.2 Penggunaan Teknik Leraian dan Menentukan Langkah Secara Tertib",
     desc: "Teknik Leraina membolehkan kita memahami sesuatu proses kerja dengan lebih mudah dan membantu kita memberi penerangan dengan lebih jelas",
-    video: "../../assets/videos/sample.mp4",
+    video: "../../assets/videos/video2.mp4",
     note: "../../assets/notes/note2/nota2.pdf",
     images: [
       "../../assets/notes/note2/1.png",
@@ -184,7 +184,7 @@ export const note = [
     id: 4,
     topic: "1.1.4 Membuat Keputusan Berdasarkan Aspek Penting",
     desc: "Aspek penting perlu dikenalpasti untuk mengambil kira pilihan yang ada kerana ianya mempengaruhi hasil atau output yang dikehendaki",
-    video: "../../assets/videos/sample.mp4",
+    video: "../../assets/videos/video4.mp4",
     note: "../../assets/notes/note4/nota4.pdf",
     images: [
       "../../assets/notes/note4/1.png",
@@ -245,7 +245,7 @@ export const note = [
     id: 5,
     topic: "1.1.5 Ciri-Ciri Kesamaan dalam Sesuatu Permasalahan",
     desc: "Mengenal pasti kesamaan atau perbezaan dalam sesuatu masalah bagi membantu mereka bentuk algoritma untuk menyelesaikan sesuatu masalah",
-    video: "../../assets/videos/sample.mp4",
+    video: "../../assets/videos/video5.mp4",
     note: "../../assets/notes/note5/nota5.pdf",
     images: [
       "../../assets/notes/note5/1.png",
@@ -271,22 +271,22 @@ export const team = [
   },
   {
     id: 2,
-    img: "../../assets/img/person2.jpg",
+    img: "../../assets/img/person2.jpeg",
     name: "Zaimizan",
   },
   {
     id: 3,
-    img: "../../assets/img/person3.png",
+    img: "../../assets/img/person3.jpeg",
     name: "Elawatun",
   },
   {
     id: 4,
-    img: "../../assets/img/person4.png",
+    img: "../../assets/img/person4.jpeg",
     name: "Leeny",
   },
   {
     id: 5,
-    img: "../../assets/img/person5.png",
+    img: "../../assets/img/person5.jpeg",
     name: "Charirn",
   },
 ];
