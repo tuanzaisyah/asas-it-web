@@ -49,7 +49,8 @@ const Navbar = () => {
         <li className="my-4">
           <a
             className="text-xl hover:text-white-200 md:hover:text-orange font-medium"
-            href="#"
+            href="../../assets/usermanual.pdf"
+            target="_blank"
           >
             Panduan Pengguna
           </a>
