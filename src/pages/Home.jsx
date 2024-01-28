@@ -21,7 +21,7 @@ const Home = () => {
             {note.map((note) => (
               <div
                 key={note.id}
-                className="w-80 h-64 lg:h-80 xl:h-96 bg-white-100 p-4 lg:p-8 rounded-lg border border-white-400 flex flex-col justify-between relative"
+                className="w-80 h-72 lg:h-80 xl:h-96 bg-white-100 p-4 lg:p-8 rounded-lg border border-white-400 flex flex-col justify-between relative"
               >
                 <div className="flex flex-col gap-4">
                   <h3 className="text-xl xl:text-2xl  font-medium">
