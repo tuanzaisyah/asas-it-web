@@ -64,7 +64,7 @@ export const note = [
     id: 2,
     topic:
       "1.1.2 Penggunaan Teknik Leraian dan Menentukan Langkah Secara Tertib",
-    desc: "Teknik Leraina membolehkan kita memahami sesuatu proses kerja dengan lebih mudah dan membantu kita memberi penerangan dengan lebih jelas",
+    desc: "Teknik Leraian membolehkan kita memahami sesuatu proses kerja dengan lebih mudah dan membantu kita memberi penerangan dengan lebih jelas",
     video: "../../assets/videos/video2.mp4",
     note: "../../assets/notes/note2/nota2.pdf",
     images: [
