@@ -35,7 +35,7 @@ const Questions = ({ question, totalQuestion, currentQuestion, setAnswer }) => {
           setRestartTimer(true);
         }, 2000);
       }
-    }, 30000);
+    }, 60000);
 
     return () => {
       if (timer.current) {
