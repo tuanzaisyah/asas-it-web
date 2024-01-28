@@ -34,14 +34,20 @@ const Navbar = () => {
         />
         <li className="my-4">
           <Link to={"/"}>
-            <a className="text-xl hover:text-white-200 md:hover:text-orange font-medium">
+            <a
+              className="text-xl hover:text-white-200 md:hover:text-orange font-medium"
+              onClick={() => setMenuOpen(false)}
+            >
               Laman Utama
             </a>
           </Link>
         </li>
         <li className="my-4">
           <Link to={"/about"}>
-            <a className="text-xl hover:text-white-200 md:hover:text-orange font-medium">
+            <a
+              className="text-xl hover:text-white-200 md:hover:text-orange font-medium"
+              onClick={() => setMenuOpen(false)}
+            >
               Tentang Kami
             </a>
           </Link>
@@ -51,6 +57,7 @@ const Navbar = () => {
             className="text-xl hover:text-white-200 md:hover:text-orange font-medium"
             href="../../assets/usermanual.pdf"
             target="_blank"
+            onClick={() => setMenuOpen(false)}
           >
             Panduan Pengguna
           </a>
