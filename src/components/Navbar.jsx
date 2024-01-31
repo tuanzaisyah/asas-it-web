@@ -12,7 +12,7 @@ const Navbar = () => {
         <img
           src="../../assets/img/logo.png"
           alt="logo"
-          className="w-56 h-auto"
+          className="w-72 md:w-96 h-auto"
         />
       </Link>
 
@@ -32,16 +32,7 @@ const Navbar = () => {
           onClick={() => setMenuOpen(!menuOpen)}
           className=" text-2xl absolute right-6 top-4 cursor-pointer hover:text-white-200 md:hidden"
         />
-        <li className="my-4">
-          <Link to={"/"}>
-            <a
-              className="text-xl hover:text-white-200 md:hover:text-orange font-medium"
-              onClick={() => setMenuOpen(false)}
-            >
-              Laman Utama
-            </a>
-          </Link>
-        </li>
+
         <li className="my-4">
           <Link to={"/about"}>
             <a
