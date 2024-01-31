@@ -18,7 +18,7 @@ export const note = [
     quiz: [
       {
         question:
-          "Pemikiran komputasional ialah satu proses __________ bagi tujuan ________ sesuatu masalah oleh manusia sendiri berbantukan mesin atau kedua-duanya sekali dengan menggunakan konsep asas sains komputer",
+          "1. Pemikiran komputasional ialah satu proses __________ bagi tujuan ________ sesuatu masalah oleh manusia sendiri berbantukan mesin atau kedua-duanya sekali dengan menggunakan konsep asas sains komputer",
         options: [
           "perubahan, menyelesaikan",
           "automasi, mengatasi",
@@ -28,12 +28,12 @@ export const note = [
         correctOptionIndex: 4,
       },
       {
-        question: "Yang manakan BUKAN teknik dalam pemikiran komputasional?",
+        question: "2. Yang manakan BUKAN teknik dalam pemikiran komputasional?",
         options: ["Leraian", "Pengecaman Corak", "Penguraian", "Pengitlakan"],
         correctOptionIndex: 3,
       },
       {
-        question: "Yang manakah BUKAN contoh pemikiran komputasional?",
+        question: "3. Yang manakah BUKAN contoh pemikiran komputasional?",
         options: [
           "Meminta kebenaran ibu bapa untuk pergi ke kedai",
           "Merancang perjalanan yang paling pendek untuk ke sekolah",
@@ -43,7 +43,8 @@ export const note = [
         correctOptionIndex: 1,
       },
       {
-        question: "Pilih aturan yang betul bagi proses pemikiran komputasional",
+        question:
+          "4. Pilih aturan yang betul bagi proses pemikiran komputasional",
         options: [
           "Masalah dipecahkan, Perkara tidak penting ditinggalkan, Kenal pasti corak yang sama, Sediakan satu model penyelesaian masalah",
           "Masalah dipecahkan, Kenal pasti corak yang sama, Perkara tidak penting ditinggalkan, Sediakan satu model penyelesaian masalah",
@@ -54,7 +55,7 @@ export const note = [
       },
       {
         question:
-          "Teknik Leraian membolehkan kita memahami sesuatu proses kerja dengan lebih mudah dan membantu kita memberi penerangan yang lebih jelas atau menyediakan algoritma yang lebih tepat",
+          "5. Teknik Leraian membolehkan kita memahami sesuatu proses kerja dengan lebih mudah dan membantu kita memberi penerangan yang lebih jelas atau menyediakan algoritma yang lebih tepat",
         options: ["Betul", "Salah"],
         correctOptionIndex: 1,
       },
@@ -77,7 +78,7 @@ export const note = [
     quiz: [
       {
         question:
-          "Yang manakah antara berikut merupakan penggunaan teknik leraian dalam kehidupan?",
+          "1. Yang manakah antara berikut merupakan penggunaan teknik leraian dalam kehidupan?",
         options: [
           "Apakah jenis ubat gigi yang digunakan?",
           "Apakah jenis berus gigi yang digunakan?",
@@ -87,7 +88,7 @@ export const note = [
         correctOptionIndex: 4,
       },
       {
-        question: "Teknik leraian melibatkan... ",
+        question: "2. Teknik leraian melibatkan... ",
         options: [
           "pemecahan suatu masalah atau sistem yang kompleks kepada bahagian-bahagian kecil bagi memudahkan pemahaman dan penyelesaian",
           "Penguraian masalah kepada beberapa bahagian bagi memudahkan menyelesaikan masalah",
@@ -98,19 +99,19 @@ export const note = [
       },
       {
         question:
-          "Andaikan anda ialah seorang juru landskap. Syarikat anda ditugaskan untuk menyiapkan sebuah taman permainan di sebuah kawasan di luar bandar. Anda dipilih untuk mengkaji dan menganggarkan kos yang diperlukan bagi menyiapkan taman permainan.Pernyataan ini merujuk kepada Teknik Leraian.",
+          "3. Andaikan anda ialah seorang juru landskap. Syarikat anda ditugaskan untuk menyiapkan sebuah taman permainan di sebuah kawasan di luar bandar. Anda dipilih untuk mengkaji dan menganggarkan kos yang diperlukan bagi menyiapkan taman permainan.Pernyataan ini merujuk kepada Teknik Leraian.",
         options: ["Betul", "Salah"],
         correctOptionIndex: 1,
       },
       {
         question:
-          "Dalam satu soalan Matematik berkaitan pecahan, Rina memecahkan soalan kepada beberapa langkah sebelum menyelesaikannya.",
+          "4. Dalam satu soalan Matematik berkaitan pecahan, Rina memecahkan soalan kepada beberapa langkah sebelum menyelesaikannya.",
         options: ["Betul", "Salah"],
         correctOptionIndex: 1,
       },
       {
         question:
-          "Ketika membaca buku cerita, Karina hanya membaca bahagian rumusan di akhir sekali untuk mendapatkan isi pentingnya",
+          "5. Ketika membaca buku cerita, Karina hanya membaca bahagian rumusan di akhir sekali untuk mendapatkan isi pentingnya",
         options: ["Betul", "Salah"],
         correctOptionIndex: 2,
       },
@@ -132,7 +133,7 @@ export const note = [
     ],
     quiz: [
       {
-        question: "Apakah yang dimaksudkan dengan pengecaman corak?",
+        question: "1. Apakah yang dimaksudkan dengan pengecaman corak?",
         options: [
           "Menggabungkan masalah yang kompleks daripada pecahan-pecahan kecil",
           "Memecahkan masalah yang kompleks kepada pecahan-pecahan yang lebih kecil",
@@ -142,7 +143,7 @@ export const note = [
         correctOptionIndex: 4,
       },
       {
-        question: "Manakah antara yang berikut merujuk kepada corak?",
+        question: "2. Manakah antara yang berikut merujuk kepada corak?",
         options: [
           "Semua kereta mempunyai roda",
           "Kereta saya warna biru gelap dan berkilat",
@@ -152,7 +153,7 @@ export const note = [
         correctOptionIndex: 1,
       },
       {
-        question: "Manakah antara yang berikut TIDAK merujuk kepada corak?",
+        question: "3. Manakah antara yang berikut TIDAK merujuk kepada corak?",
         options: [
           "Semua kucing mempunyai ekor",
           " Kucing saya boleh berenang",
@@ -163,7 +164,7 @@ export const note = [
       },
       {
         question:
-          "Manakah antara situasi berikut TIDAK merujuk kepada teknik Pengecaman corak?",
+          "4. Manakah antara situasi berikut TIDAK merujuk kepada teknik Pengecaman corak?",
         options: [
           "Polis mengenalpasti kumpulan perompak yang melakukan jenayah rompakan bersenjata berdasarkan modus operandi mereka sebelum ini",
           "Guru Sains menyatakan fungsi setiap bahagian dalam satu tumbuhan",
@@ -174,7 +175,7 @@ export const note = [
       },
       {
         question:
-          "Komputer polis boleh mengesan penjenayah dengan menggunakan sistem yang mengenal pasti cap jari",
+          "5. Komputer polis boleh mengesan penjenayah dengan menggunakan sistem yang mengenal pasti cap jari",
         options: ["Peniskalaan", "Leraian", "Pengecaman Corak", "Pengitlakan"],
         correctOptionIndex: 3,
       },
@@ -196,7 +197,7 @@ export const note = [
     ],
     quiz: [
       {
-        question: "Aspek-aspek penting perlu dikenalpasti____________",
+        question: "1. Aspek-aspek penting perlu dikenalpasti____________",
         options: [
           "Selepas membuat keputusan",
           "Semasa membuat keputusan",
@@ -206,7 +207,7 @@ export const note = [
       },
       {
         question:
-          "Aspek penting perlu diambil kira sebelum membuat keputusan kerana",
+          "2. Aspek penting perlu diambil kira sebelum membuat keputusan kerana",
         options: [
           "Mempengaruhi hasil atau output yang dikehendaki",
           "Mudah",
@@ -216,12 +217,12 @@ export const note = [
       },
       {
         question:
-          "Komputer akan mencari laluan paling kurang __________ semasa proses menghantar data melalui talian",
+          "3. Komputer akan mencari laluan paling kurang __________ semasa proses menghantar data melalui talian",
         options: ["sempit", "kekangan atau halangan", "tarikan"],
         correctOptionIndex: 2,
       },
       {
-        question: "Aspek-aspek penting membolehkan kita___________",
+        question: "4. Aspek-aspek penting membolehkan kita___________",
         options: [
           "Membuat pilihan terbaik",
           "Memenuhi syarat",
@@ -231,7 +232,7 @@ export const note = [
       },
       {
         question:
-          "Pemikiran komputasional iaitu kemahiran membuat keputusan berdasrkan aspek penting dapat digunakan dalam kehidupan seharian seperti_____________",
+          "5. Pemikiran komputasional iaitu kemahiran membuat keputusan berdasrkan aspek penting dapat digunakan dalam kehidupan seharian seperti_____________",
         options: [
           "Bermain game",
           "Penggunaan GPS dalam menentukan laluan terdekat",
@@ -263,7 +264,7 @@ export const note = [
     quiz: [
       {
         question:
-          "Apakah yang dimaksudkan dengan Ciri-Ciri Kesamaan dalam Sesuatu Permasalahan?",
+          "1. Apakah yang dimaksudkan dengan Ciri-Ciri Kesamaan dalam Sesuatu Permasalahan?",
         options: [
           "Kebolehan untuk mengenal pasti kesamaan atau perbezaan merupakan kemahiran asas bagi penyelesaian masalah dan mereka bentuk algoritma",
           "Proses pemikiran yang melibatkan pencarian formula pada permasalahan dan menyatakan penyelesaian seperti yang dilaksanakan oleh sebuah komputer",
@@ -274,19 +275,19 @@ export const note = [
       },
       {
         question:
-          "Menyelesaikan masalah dengan bantuan manusia sendiri dan mesin serta menggunakan lakaran peta yang disediakan bagi memudahkan proses penyelesaian. Pernyataan ini menunjukkan Ciri-ciri Kesamaan dalam Sesuatu Permasalah",
+          "2. Menyelesaikan masalah dengan bantuan manusia sendiri dan mesin serta menggunakan lakaran peta yang disediakan bagi memudahkan proses penyelesaian. Pernyataan ini menunjukkan Ciri-ciri Kesamaan dalam Sesuatu Permasalah",
         options: ["Betul", "Salah"],
         correctOptionIndex: 2,
       },
       {
         question:
-          "MENCARI KESAMAAN DAN PERBEZAAN merupakan aspek penting yang perlu dititikberatkan dalam menyelesaikan masalah dan mereka bentuk algoritma",
+          "3. MENCARI KESAMAAN DAN PERBEZAAN merupakan aspek penting yang perlu dititikberatkan dalam menyelesaikan masalah dan mereka bentuk algoritma",
         options: ["Betul", "Salah"],
         correctOptionIndex: 1,
       },
       {
         question:
-          "Apakah perkara yang diambil kira suatu ingin menyelesaikan ciri-ciri kesamaan permasalahan dan mereka bentuk algorithma?",
+          "4. Apakah perkara yang diambil kira suatu ingin menyelesaikan ciri-ciri kesamaan permasalahan dan mereka bentuk algorithma?",
         options: [
           "Melihat kepada nilai yang ditetapkan",
           "Penentuaan mengikut pemikiran komputernasional",
@@ -297,7 +298,7 @@ export const note = [
       },
       {
         question:
-          "Masalah boleh __________ kepada bahagian-bahagian kecil yang lebih _______ untuk diselesaikan apabila ciri-ciri kesamaan atau perbezaan dikesan",
+          "5. Masalah boleh __________ kepada bahagian-bahagian kecil yang lebih _______ untuk diselesaikan apabila ciri-ciri kesamaan atau perbezaan dikesan",
         options: [
           "digabungkan, mudah",
           "diperincikan, efisien",
